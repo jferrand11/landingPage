@@ -118,6 +118,7 @@ a {
   align-content: center;
   padding: 5% 10%;
   background-color: #e5e7eb;
+  margin-bottom: 100px;
 }
 
 .quoteText {
@@ -138,14 +139,42 @@ a {
   text-align: end;
 }
 
-button {
+.bottomContainer {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 800px;
+  padding: 50px 100px;
+  margin: auto;
+  color: white;
+}
+
+.bottomMainText {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+.bottomSubText {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.bottomButton {
+  padding: 0.6em 2em;
+  border-radius: 8px;
+  color: white;
+  background-color: #3882f6;
+  font-size: 1em;
+  font-weight: bold;
+  border-color: white;
+  cursor: pointer;
+  margin: 1em;
+}
+.signUp {
   background-color: #3882f6;
   color: white;
   padding: 2px 16px;
   border-radius: 6px;
   max-width: 100px;
 }
-
-/* .signUp {
-  width: 150px;
-} */
