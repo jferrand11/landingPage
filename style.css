@@ -8,6 +8,9 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
+  /* max-width: auto; */
+
+  /* padding: 80px; */
 }
 
 .header,
@@ -15,16 +18,18 @@ body {
 .footer {
   background-color: #1f2937;
 }
-
+.logo {
+  font-weight: bold;
+  color: #f9faf8;
+  font-size: 24px;
+}
 .header {
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  padding: 60px;
-}
-.leftSide {
-  color: #f9faf8;
-  font-size: 24px;
+  align-content: space-between;
+  gap: 100px;
+  padding: 10px 200px 0px;
+  /* padding: 60px; */
 }
 
 ul {
@@ -38,7 +43,29 @@ a {
   color: #e5e7eb;
 }
 
+.hero {
+  display: flex;
+  align-content: space-between;
+  padding: 100px 200px;
+}
+.heroImg {
+  max-width: 650px;
+}
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin-right: 80px;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start; */
+}
+
 .HeroMainText {
+  display: flex;
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
@@ -50,4 +77,22 @@ a {
 
 .quote {
   background-color: #e5e7eb;
+}
+
+.quoteText {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  padding: 2px 16px;
+  border-radius: 6px;
+}
+
+.signUp {
+  width: 100px;
 }
