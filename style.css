@@ -4,9 +4,10 @@ html,
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
+  padding: 0:
   min-height: 100vh;
   display: flex;
-  /* flex: 1; */
+  flex: 1;
   flex-direction: column;
   /* max-width: auto; */
 
@@ -118,7 +119,7 @@ a {
   align-content: center;
   padding: 5% 10%;
   background-color: #e5e7eb;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .quoteText {
@@ -143,11 +144,19 @@ a {
   display: flex;
   background-color: #3882f6;
   border-radius: 8px;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-self: center;
+  align-self: center;
   width: 800px;
-  padding: 50px 100px;
-  margin: auto;
+  margin: 100px;
+
+  justify-content: space-between; 
+  align-content: space-between;
+  padding: 80px 160px;
+  /* padding: 50px 150px; */
+  /* align-items: center; */
+  /* margin: 100px 300px 200px; */
+  /* margin: auto; */
+  /* margin: 20em; */
   color: white;
 }
 
@@ -161,6 +170,9 @@ a {
   font-size: 18px;
 }
 .bottomButton {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
   padding: 0.6em 2em;
   border-radius: 8px;
   color: white;
@@ -171,10 +183,22 @@ a {
   cursor: pointer;
   margin: 1em;
 }
+
+.bottomTxt{
+  display: flex;
+  flex-direction: column;
+}
 .signUp {
   background-color: #3882f6;
   color: white;
   padding: 2px 16px;
   border-radius: 6px;
   max-width: 100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #fff;
 }
